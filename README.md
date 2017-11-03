@@ -30,5 +30,7 @@ sed -i 's/^daemon\(.*\)/daemon on\;/g' /home/admin/tengine/conf/nginx.conf
 daemon on;
 ```
 参考链接：
+
 http://c.isme.pub/2017/04/20/supervisor/
+
 [Wangxj's Blog](http://wangxj.org/2017/03/14/%E4%BD%BF%E7%94%A8supervisord%E5%AE%88%E6%8A%A4%E8%BF%9B%E7%A8%8B%E6%8E%A7%E5%88%B6%E5%A4%9A%E7%A8%8B%E5%BA%8F%E8%BF%90%E8%A1%8C/)
