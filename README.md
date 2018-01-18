@@ -15,6 +15,11 @@ password=123
 files = /etc/supervisor/conf.d/*.ini
 END
 ```
+supervisor前台运行
+```
+[supervisord]
+nodaemon=true
+```
 
 ```
 启动单个service
