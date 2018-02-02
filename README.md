@@ -41,6 +41,11 @@ daemonize no
 sed -i 's/^daemon\(.*\)/daemon on\;/g' /home/admin/tengine/conf/nginx.conf
 daemon on;
 ```
+## supervisor前台运行
+```
+nodaemon=false               ; 是否在前台启动，默认是 false，即以 daemon 的方式启动
+```
+
 参考链接：
 
 http://c.isme.pub/2017/04/20/supervisor/
